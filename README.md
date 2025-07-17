@@ -136,18 +136,6 @@ The `use_sample_tools()` solver dynamically loads only the tools specified in ea
 - Ensures agents only have access to contextually relevant tools
 - Prevents unrealistic scenarios where agents have access to all possible tools
 
-## Key Insights
-
-### Attack Realism
-All attacks are designed around realistic user behaviors:
-- **Delegation of Analysis**: Users commonly ask AI to summarize and act on content they haven't reviewed
-- **Trust in Internal Content**: Employees assume training materials and internal communications are safe
-- **Efficiency Over Security**: Users prioritize convenience, leading to insufficient verification of AI actions
-
-### Stealth and Feasibility Ratings
-- **Stealth Level (0-2)**: How well-hidden the adversarial content is from human inspection
-- **Feasibility Level (0-2)**: How likely this attack scenario is to occur in real-world deployments
-
 ## Usage Examples
 
 ### Running Account Takeover Tests
