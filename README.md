@@ -169,7 +169,7 @@ The `jailbreak_pipelines/` directory contains implementations of various attack 
 - **Model-Specific Results**: Attack success rates may vary significantly across different model architectures
 - **Real-world Complexity**: Simplified tool implementations may not capture all nuances of production systems
 
-### Current Development Status
+## Current Development Status
 
 - **Limited Harm Categories**: Currently implements 3 foundational harm categories with plans for significant expansion. The modular architecture supports easy vertical scaling, with 10+ additional categories planned for future iterations
 - **Tool Coverage**: Each harm category currently features 3-5 specialized tools, with ongoing development to expand the tool ecosystem and increase attack surface complexity
