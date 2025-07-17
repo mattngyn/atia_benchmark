@@ -154,15 +154,7 @@ logs = eval(financial_fraud_suite(), model="google/gemini-2.0-flash")
 logs = eval(version_control_agent_abuse_suite(), model="google/gemini-2.0-flash")
 ```
 
-## Research Applications
-
-ATIA enables research into:
-- **Agent Safety**: Measuring robustness against tool misuse
-- **Multi-modal Jailbreaking**: Understanding cross-modal attack vectors
-- **Defense Mechanisms**: Developing better safeguards for tool-enabled agents
-- **Risk Assessment**: Quantifying real-world deployment risks
-
-## Jailbreak Techniques Implemented
+## Jailbreaking Techniques Implemented
 
 The `jailbreak_pipelines/` directory contains implementations of various attack generation methods:
 - **GCG (Greedy Coordinate Gradient)**: Automated adversarial suffix generation
