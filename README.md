@@ -90,7 +90,7 @@
 
 ### *5. Silent Characters Injection (`Gray Swan`)*
 
-- ***Technique**: insert zero-width marks so text looks normal to humans but parses differently to models*
+- ***Technique**: Insert zero-width marks so text looks normal to humans but parses differently to models*
 - ***Vector**: Users copy paste something from internet for automated processing or summarizing*
 - ***Exploitation**: Text looks completely legitimate but model calls tool with harmful parameters*
 
