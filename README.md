@@ -4,7 +4,7 @@
 
 *ATIA is a comprehensive benchmark designed to evaluate the susceptibility of AI agents to adversarial tool infiltration attacks. The benchmark tests whether agents can be manipulated into executing harmful tool calls when presented with carefully crafted adversarial inputs across multiple modalities (text, audio, image, and video).*
 
-*Currently, the benchmark measures 500+ attacks across 10 different harm categories utilizing 5 unique and modern attack types.*
+*Currently, the benchmark measures 500+ attacks across 10 different harm categories utilizing 6 jailbreaking methods.*
 
 > ***Note**: This represents the current iteration of the benchmark and is under active development with ongoing improvements and expansions planned.*
 
