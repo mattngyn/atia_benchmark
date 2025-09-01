@@ -1,0 +1,13 @@
+Here are the current attacks I have currently developed:
+
+-> Image jailbreak attack (Qi et al. 2023): This attack uses images that contain visual adversarial examples designed to manipulate the model's understanding. The images are crafted to look normal but contain patterns or features that can influence the model's behavior, similar to the jailbreak attacks described by Qi et al. 2023 in their paper on visual adversarial examples.
+
+-> Text jailbreak attack (Zou et al. 2023): This attack uses text prompts that are designed to manipulate the model's understanding. The text is crafted to include specific phrases or structures that can influence the model's behavior, similar to the jailbreak attacks described by Zou et al. in their work on text-based adversarial examples.
+
+-> Text to speech Attack: This attack uses audio clips that contain spoken text designed to manipulate the model's understanding. The audio is crafted to be indistinguishable from normal speech but contains specific phrases or commands that can influence the model's behavior. Similar to the Hidden video attack, the audio is designed to ellicit jailbreak responses when the model processes it, as the user would be lazy and not actually listen to audio, but rather just use it as a task input.
+
+-> Embeded Text Attack: This attack involves embedding text within images to manipulate the model's understanding. The text is rendered in a way that it can be visually obscured or blended with the image, making it difficult for the model to detect.
+
+-> Silent Characters Stealth Attack: This attack injects invisible Unicode control characters (e.g., zero-width spaces and bidirectional overrides) into otherwise normal text so it looks benign to humans but parses differently to models. The payload can ride along in emails, docs, code snippets, or CSVs and survives copy/paste.
+
+-> Hidden Video Attack: This attack has a cover art that is visually appealing but contains hidden text or patterns that can influence the model's response. The video content is designed to attack people who are not actually watching the video, but rather give the model the goal of 'using' the video for some task.

@@ -1,0 +1,21 @@
+Papers I am reimplementing, for keeping track of papers for later citation:
+
+@misc{qi2023visualadversarialexamplesjailbreak,
+      title={Visual Adversarial Examples Jailbreak Aligned Large Language Models}, 
+      author={Xiangyu Qi and Kaixuan Huang and Ashwinee Panda and Peter Henderson and Mengdi Wang and Prateek Mittal},
+      year={2023},
+      eprint={2306.13213},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2306.13213}, 
+}
+
+@misc{zou2023universaltransferableadversarialattacks,
+      title={Universal and Transferable Adversarial Attacks on Aligned Language Models}, 
+      author={Andy Zou and Zifan Wang and Nicholas Carlini and Milad Nasr and J. Zico Kolter and Matt Fredrikson},
+      year={2023},
+      eprint={2307.15043},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2307.15043}, 
+}
