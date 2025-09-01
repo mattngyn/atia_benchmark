@@ -60,7 +60,7 @@
 
 ***Attack Scenarios:** Agents are tricked into injecting malicious code, executing unauthorized scripts, approving dangerous pull requests, or granting access to attackers.*
 
-### *4. Seven more harm categories including security agents and cicd pipeline agents...*
+### *4. Seven more harm categories including Data Platform Breach, Customer Support CRM Abuse, etc.*
 
 ## *Attack Methodologies*
 
@@ -205,16 +205,6 @@ logs = eval(version_control_agent_abuse_suite(), model="google/gemini-2.0-flash"
 - ***Defense Mechanisms**: Developing better safeguards for tool-enabled agents*
 - ***Risk Assessment**: Quantifying real-world deployment risks*
 
-## *Jailbreak Techniques Implemented*
-
-*The `jailbreak_pipelines/` directory contains implementations of various attack generation methods:*
-
-- ***GCG (Greedy Coordinate Gradient)**: Automated adversarial suffix generation*
-- ***Image Jailbreaking**: Visual adversarial example creation*
-- ***Text-to-Speech**: Audio-based attack vector generation*
-- ***Hidden Video**: Video-based adversarial content embedding*
-- ***Text Embedding**: Steganographic text hiding in images*
-
 ## *Limitations & Ethical Considerations*
 
 - ***Responsible Disclosure**: This benchmark is designed for defensive research and should not be used for malicious purposes*
@@ -223,7 +213,7 @@ logs = eval(version_control_agent_abuse_suite(), model="google/gemini-2.0-flash"
 
 ### *Current Development Status*
 
-- ***Many real life Harm Categories**: Currently implements 10 harm categories that simulate real startups worth at least $1m+, showing these are real scenarios people care about
-- ***Tool Coverage**: Each harm category currently features 5 specialized tools with differing amounts of complexity
-- ***Dataset Scale**: The benchmark currently contains approximately 50 adversarial examples per harm category, totaling over 500 harm examples
-- ***Easy use of benchmarking*: Easy to switch models due to use of inspect, allowing for any model that is supported by the inspect framework to be utilized.
+- **Realistic Harm Categories**: Includes 10 categories inspired by real-world startup scenarios valued at $1M+, demonstrating practical and relevant use cases.  
+- **Comprehensive Tool Coverage**: Each harm category is paired with 5 specialized tools of varying complexity.  
+- **Scalable Dataset**: Provides ~50 adversarial examples per category, totaling more than 500 examples overall.  
+- **Seamless Benchmarking**: Built on the Inspect framework, making it simple to switch between and evaluate different supported models.  
