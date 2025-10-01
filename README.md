@@ -1,4 +1,4 @@
-# *ATIA: A Benchmark For Adversarial Tool Inflitration In Agents*
+# *ATIA: A Benchmark For Adversarial Tool Inflitration In Agents* 
 
 ***A Google Summer of Code 2025 Project under Google DeepMind***
 
